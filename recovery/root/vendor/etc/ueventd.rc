@@ -215,3 +215,7 @@ subsystem mi_display
 
 #sensor
 /dev/hf_manager           0660   system     system
+
+#dynamic sensor
+/dev/hidraw*   0660 system system
+
